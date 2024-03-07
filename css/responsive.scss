@@ -1,0 +1,196 @@
+@media (min-width: 1599px) {
+  .header-bg {
+    height: 86px;
+  }
+  header {
+    height: 88px;
+    nav {
+      .contact-sec {
+        h6 {
+          font-size: 23px;
+          span {
+            font-size: 35px;
+            margin-top: 17px;
+          }
+        }
+        .call-icon {
+          width: 35px;
+          margin-top: -7px;
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+  main {
+    background-position: 0;
+    padding: 64px 0px 89px 0px;
+    h1 {
+      font-size: 35px;
+      line-height: 42px;
+    }
+    h5,
+    h3 {
+      line-height: 47px;
+    }
+  }
+  .lab-service-sec,
+  .delighted-cust-sec {
+    h2.about-title {
+      font-size: 30px;
+    }
+  }
+
+  .delighted-cust-sec {
+    .container {
+      .delighted-cust-inner {
+        .testimonials-box {
+          .bottom-content-sec {
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lab-service-sec {
+    p,
+    ul li {
+      font-size: 18px;
+    }
+  }
+  #videoModal {
+    .modal-dialog {
+      max-width: 65%;
+      .modal-content {
+        height: 700px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  section.lab-service-sec {
+    .btn-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #videoModal {
+    .modal-dialog {
+      .modal-content {
+        height: 300px;
+      }
+    }
+  }
+  .rating-section {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  main {
+    .data-carrier-sec {
+      div {
+        div {
+          height: 122px;
+        }
+      }
+    }
+  }
+}
+
+// medium size / portrait/ tablet
+@media only screen and (max-width: 768px) {
+  .header-bg {
+    position: relative;
+    box-shadow: initial;
+    background-color: #f1f1f1;
+  }
+  header {
+    height: 65px;
+    background-color: #f1f1f1;
+    nav {
+      .web-logo {
+        width: 120px;
+      }
+    }
+  }
+  .contact-sec {
+    display: none;
+  }
+  main {
+    background-image: initial;
+    background-color: #f1f1f1;
+    h1 {
+      font-size: 28px;
+      line-height: initial;
+      span {
+        display: inline-block;
+      }
+    }
+    h5 {
+      line-height: initial;
+      margin: 12px 0;
+    }
+    .data-carrier-sec {
+      div {
+        margin-left: initial;
+        div {
+        }
+      }
+    }
+    .container {
+      padding: 0;
+      .row {
+        margin: 0;
+      }
+    }
+  }
+  .lab-service-sec {
+    .btn-content {
+      a {
+        font-size: 14px;
+        padding: 12px 17px;
+      }
+    }
+    p,
+    ul li {
+      font-size: 16px;
+      font-size: 15px;
+    }
+  }
+  .lab-service-sec,
+  .delighted-cust-sec {
+    h2.about-title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  #videoModal {
+    .modal-dialog {
+      max-width: 90%;
+    }
+  }
+}
+
+// Large devices
+@media only screen and (max-width: 992px) {
+  main {
+    background-position: center;
+  }
+  .service-inner {
+    div.row {
+      flex-direction: column-reverse;
+      img {
+        border-radius: 12px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
